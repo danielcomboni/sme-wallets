@@ -22,7 +22,8 @@ import { BuyersDashboardComponent } from "./shared/buyers-dashboard/buyers-dashb
 import { PaymentnoticeComponent } from "./view/buyer/paymentnotice/paymentnotice.component";
 import { BuyernavComponent } from "./shared/buyernav/buyernav.component";
 import { PaymentInfoComponent } from "./view/buyer/payment-info/payment-info.component";
-import { SupplierDashboardComponent } from "./view/supplier/supplier-dashboard/supplier-dashboard.component";
+// import { SupplierDashboardComponent } from "./view/supplier/supplier-dashboard/supplier-dashboard.component";
+// import { SupplierDashComponent } from "./view/supplier/supplier-dash/supplier-dash.component";
 import { AllOrdersComponent } from "./view/buyer/orders/all-orders/all-orders.component";
 import { InvoicesComponent } from "./view/buyer/invoices/invoices.component";
 import { ApproveInvoicesComponent } from "./view/buyer/invoices/approve-invoices/approve-invoices.component";
