@@ -1,8 +1,9 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+// tslint:disable-next-line:import-spacing
 import { NgxPhoneNumberInputModule } from  'projects/phone-input/src/public_api';
 
-import { Ng2PageScrollModule } from "ng2-page-scroll";
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 // forms
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { SideAccountSettingsComponent } from "./view/buyer/side-account-settings/side-account-settings.component";
@@ -66,6 +67,7 @@ import { MyDoughnutChartComponent } from './shared/my-doughnut-chart/my-doughnut
 import { MyPieChartComponent } from './shared/my-pie-chart/my-pie-chart.component';
 import { ScrollSpyModule } from './shared/scroll-spy';
 import { InViewportModule } from '@thisissoon/angular-inviewport';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -138,12 +140,12 @@ import { InViewportModule } from '@thisissoon/angular-inviewport';
     ChartsModule,
     InViewportModule, ScrollSpyModule.forRoot(),
     // duScroll.scrollspy
-  
+  HttpClientModule,
 
     MDBBootstrapModule.forRoot(),
-    
-    
-    
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
