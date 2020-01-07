@@ -4,9 +4,9 @@
  * a model / entity class ChargeTransient.
  */
 
-import { Charge } from "./charge-model";
-import { User } from "src/app/shared/model/user/user-model";
-import { Wallet } from "src/app/shared/model/wallet/wallet-model";
+import { Charge } from './charge-model';
+import { User } from 'src/app/shared/model/user/user-model';
+import { Wallet } from 'src/app/shared/model/wallet/wallet-model';
 
 export class ChargeTransient extends Charge {
   timestampStr: string;
